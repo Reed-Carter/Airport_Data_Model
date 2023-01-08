@@ -11,16 +11,15 @@
 * pandas
 * jupyterlab
 * BigQuery
-* Looker Studio
 
 ## Description
 
-This repo processes air travel tickets. This exercise can be broken down into four steps:
-    1. First, create a data model to store our tables; separating entities into dimensions and facts
-    2. Develop an ETL pipeline normalizing the source file into our facts and dimensions
-    3. Add a new task capable of updating (merging) tickets in our fact
+In this repo, an ETL pipeline was developed in order to normalize airline ticket information into facts and dimension tables and loads the tables into a bigquery dataset. A diagram of the ETL diagram and the ERD of the data warehouse can be found below.
 
-[<img src="./images/full_display.png" width='700'/>](./images/full_display.png)
+
+
+[<img src="./images/ETL_pipeline_diagram.png"/>](./images/ETL_pipeline_diagram.png)
+[<img src="./images/data_warehouse_ERD.png" width='700'/>](./images/data_warehouse_ERD.png)
 
 
 ## Setup/Installation Requirements
@@ -28,7 +27,8 @@ This repo processes air travel tickets. This exercise can be broken down into fo
 * Clone this repository to your desktop
 * Navigate to the top level directory
 * Run 'pip install -r requirements.txt' to install all the requirements so that main.py can run correctly
-* Open main.py
+* Open load_dims.ipynb and run all cells
+* Open load_facts.ipynb and run all cells
 
 ## Known Bugs
 
