@@ -19,6 +19,7 @@ In this repo, an ETL pipeline was developed in order to normalize airline ticket
 
 
 [<img src="./images/ETL_pipeline_diagram.png"/>](./images/ETL_pipeline_diagram.png)
+
 [<img src="./images/data_warehouse_ERD.png" width='700'/>](./images/data_warehouse_ERD.png)
 
 
@@ -26,7 +27,7 @@ In this repo, an ETL pipeline was developed in order to normalize airline ticket
 
 * Clone this repository to your desktop
 * Navigate to the top level directory
-* Run 'pip install -r requirements.txt' to install all the requirements so that main.py can run correctly
+* Run 'pip install -r requirements.txt' to install all required dependecies
 * Open load_dims.ipynb and run all cells
 * Open load_facts.ipynb and run all cells
 
