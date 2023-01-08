@@ -14,7 +14,7 @@
 
 ## Description
 
-In this repo, an ETL pipeline was developed in order to normalize airline ticket information into facts and dimension tables and loads the tables into a bigquery dataset. A diagram of the ETL diagram and the ERD of the data warehouse can be found below.
+In this repo, an ETL pipeline was developed in order to normalize airline ticket information into facts and dimension tables and loads the tables into a bigquery dataset. A diagram of the ETL pipeline and the ERD of the data warehouse can be found below.
 
 
 
