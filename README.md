@@ -20,7 +20,7 @@ In this repo, an ETL pipeline was developed in order to normalize airline ticket
 
 [<img src="./images/ETL_pipeline_diagram.png"/>](./images/ETL_pipeline_diagram.png)
 
-[<img src="./images/data_warehouse_ERD.png" width='700'/>](./images/data_warehouse_ERD.png)
+[<img src="./images/airline_data_warehouse_erd.png" width='700'/>](./images/airline_data_warehouse_erd.png)
 
 
 ## Setup/Installation Requirements
